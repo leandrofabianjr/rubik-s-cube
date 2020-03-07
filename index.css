@@ -1,0 +1,25 @@
+* {padding:0;margin:0; box-sizing: border-box;}
+body {position: relative;}
+
+#container {
+    background-color: #EEEEFF;
+    width: 100vw;
+    height: 100vh;
+    padding: 50px;
+}
+
+.plain-cube {
+    background-color: #FFFFEE;
+    width: 100%;
+    height: 100%;
+}
+
+.plain-cube .face {
+    background-color: #cccccc;
+}
+
+.plain-cube .face .brick {
+    background-color: #cccccc;
+    border: solid .1px black;
+    border-radius: 4px;
+}
